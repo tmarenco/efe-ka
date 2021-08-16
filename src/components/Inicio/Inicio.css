@@ -1,11 +1,18 @@
 .titulo{
-    margin: 1rem;
-    font-size: 4.5rem;
+    margin-top: 8rem;
+    font-size: 3rem;
     text-align: center;
+    letter-spacing: 7px;
 }
 .logo{
     width: 40%;
 }
 .inicio{
     text-align: center;
+}
+
+@media (min-width: 1000px) {
+    .titulo{
+        font-size: 6rem;
+    }
 }

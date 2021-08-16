@@ -3,6 +3,10 @@
     border-bottom: tomato solid 0.5rem;
 }
 
+.artista {
+    color: #6c757d;
+}
+
 .video{
     margin-bottom: 2rem
 }

@@ -10,16 +10,22 @@ function SobreMi() {
       <div className="tiuloBio">
         <h1>Fabio Kunis</h1>
       </div>
-      <div>
-        <img className="foto" src= "/documents/fotoEfeKa.png" alt="fotoEfeKa" width="50%"></img>
-      </div>
+      <section clasName="carrusel">
+        <div className="fotosEfeKa">
+          <ul>
+            <li><img className="foto" src= "/documents/fotoEfeKa1.jpg" alt="fotoEfeKa1" width="50%"></img></li>
+            <li><img className="foto" src= "/documents/fotoEfeKa2.jpg" alt="fotoEfeKa2" width="50%"></img></li>
+            <li><img className="foto" src= "/documents/fotoEfeKa3.jpg" alt="fotoEfeKa3" width="50%"></img></li>
+          </ul>
+        </div>
+      </section>
       <div className="descripcion">
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris elementum quis lacus efficitur pellentesque. Maecenas quis mauris non ligula dictum vestibulum a eget mauris. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis eu sem lectus. Quisque lacinia massa eget dictum mollis. Mauris vitae eros lectus. Vivamus porttitor non nibh a bibendum. Sed tincidunt erat ac ex dapibus, nec auctor sapien laoreet. Nam mollis dolor a enim rhoncus, in suscipit purus consequat. Etiam volutpat tincidunt fermentum. Maecenas pretium, erat non varius tempus, dui tortor convallis orci, auctor mattis sem lectus non dui. Vivamus et rutrum eros.
+        Fabio Kunis (27 de Abril de 1995) es un Filmmaker residente de la ciudad de Buenos Aires. Con bases de formacion como Licenciado en Diseño Audiovisual en la Universidad Argentina de la Empresa, actualmente se dedica mayormente a la realizacion de Videoclips de artistas emergentes de la musica urbana.
         </p>
       </div>
       <div className="icons">
-        <a href="https://www.instagram.com/fkunis/"><FontAwesomeIcon icon={['fab', 'instagram']} className="fab fa-instagram iconContacto"></FontAwesomeIcon></a>
+        <a href="https://www.instagram.com/fkunis/"><FontAwesomeIcon icon={['fab', 'instagram']} className="fab fa-instagram iconContacto iconSobreMi"></FontAwesomeIcon></a>
       </div>
     </div>
   );

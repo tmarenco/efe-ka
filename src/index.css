@@ -4,7 +4,8 @@
 }
 
 body{
-  background-color: black;
+  background-image:url(documents/efekaka.jpg);
+  background-size: cover;
   color: white;
   font-family: akira;
 }

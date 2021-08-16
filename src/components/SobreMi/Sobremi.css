@@ -2,10 +2,56 @@
     text-align: center;
 }
 
+.descripcion{
+    text-align: justify;
+}
+
+.iconSobreMi{
+    color: tomato
+}
+@keyframes cambio {
+    0% {margin-left: 0;}
+    33% {margin-left: 0;}
+
+    34% {margin-left: -100%;}
+    67% {margin-left: -100%;}
+
+    68% {margin-left: -200%;}
+    100% {margin-left: -200%;}
+}
+
+.fotosEfeKa{
+    width: 75%;
+    margin: auto;
+    overflow: hidden
+}
+
+.fotosEfeKa ul{
+    padding: 0px;
+    display: flex;
+    width: 300%;
+    animation: cambio 10s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+.fotosEfeKa li {
+    list-style: none;
+    width: 100%;
+}
+
+.fotosEfeKa img{
+    width: 100%;
+}
+
 @media(min-width: 600px){
-    .foto{
+    .fotosEfeKa{
         width: 30%;
         text-align: center;
+    }
+
+    .descripcion{
+        margin: 0 5rem;
     }
 }
 
