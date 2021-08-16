@@ -15,8 +15,7 @@ function Header() {
       </div>
       <div className={cellPhoneMenu? "desaparece headerPc" : "aparece headerPc"}>
         <Link to="/"><p className="itemHeader">INICIO</p></Link>
-        <Link to="/proyectos"><p className="itemHeader">PROYECTOS</p></Link>
-        <Link to="/tecnologias"><p className="itemHeader">VIDEOS</p></Link>
+        <Link to="/videos"><p className="itemHeader">VIDEOS</p></Link>
         <Link to="/sobre-mi"><p className="itemHeader">BIO</p></Link>
         <Link to="/contacto"><p className="itemHeader">CONTACTO</p></Link>
         <FontAwesomeIcon icon={faTimesCircle} onClick={()=>setCellPhoneMenu(!cellPhoneMenu)} className="fas fa-times-circle itemHeader itemCellphone"/>

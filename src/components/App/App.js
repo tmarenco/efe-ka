@@ -1,7 +1,6 @@
 import './App.css';
 import Contacto from "../Contacto/Contacto"
-import Proyectos from "../Proyectos/Proyectos"
-import Tecnologias from "../Tecnologias/Tecnologias"
+import Videos from "../Videos/Videos"
 import SobreMi from "../SobreMi/SobreMi"
 import Inicio from "../Inicio/Inicio"
 import Header from "../Header/Header"
@@ -18,9 +17,8 @@ function App() {
       <Switch>
         <Route exact path="/" component={Inicio} />
         <Route path="/contacto" component={Contacto} />
-        <Route path="/proyectos" component={Proyectos} />
         <Route path="/sobre-mi" component={SobreMi} />
-        <Route path="/tecnologias" component={Tecnologias} />
+        <Route path="/videos" component={Videos} />
         <Route component={Error} />
       </Switch>
     </div>
