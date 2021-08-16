@@ -1,0 +1,48 @@
+.header {
+    border-bottom: white solid 0.5rem;
+    text-align: center;
+}
+.itemHeader{
+    margin: 1rem;
+    color: white;
+}
+.itemHeader:hover{
+    color: red
+}
+
+
+.fa-ellipsis-h{
+    color: black;
+    background-color: white;
+    font-size: 2rem;
+    border: solid 5px white;
+    padding: 5px;
+    justify-content: flex-end;
+    margin: 1rem;
+    border-radius: 10%;
+}
+
+.desaparece{
+    display: none
+}
+.aparece{
+    display: block
+}
+
+
+@media (min-width: 700px) {
+    .headerPc {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .itemHeader{
+        margin: 1.5rem
+    }
+
+    .itemCellphone,
+    .menuIcon{
+        display: none
+    }
+}

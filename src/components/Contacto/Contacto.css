@@ -1,0 +1,25 @@
+.fa-google,
+.fa-instagram,
+.fa-whatsapp
+{
+    color: white;
+}
+
+.iconContacto {
+    margin: 2rem 0.5rem;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fab:hover {
+    opacity: 0.7;
+    color: red
+}
+
+.icons {
+    text-align: center;
+}
+
+
