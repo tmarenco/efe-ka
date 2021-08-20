@@ -10,7 +10,7 @@ function SobreMi() {
       <div className="tiuloBio">
         <h1>Fabio Kunis</h1>
       </div>
-      <section clasName="carrusel">
+      <section className="carrusel">
         <div className="fotosEfeKa">
           <ul>
             <li><img className="foto" src= "/documents/fotoEfeKa1.jpg" alt="fotoEfeKa1" width="50%"></img></li>

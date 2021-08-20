@@ -1,0 +1,33 @@
+.formulario{
+    margin: 0 auto;
+    text-align: center;
+}
+.formulario label{
+    display: block;
+    margin: 10px
+}
+
+.formulario input {
+    width: 50%;
+    padding: 6px 10px;
+    border: 2.5px solid BLACK;
+    display: block;
+    border-radius: 5px;
+    margin: 0 auto;
+    outline-color: tomato;
+}
+
+
+.tituloForm{
+    color: tomato
+}
+
+button {
+    margin: 10px;
+    background: tomato;
+    font-family: akira;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}

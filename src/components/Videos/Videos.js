@@ -1,13 +1,18 @@
 import './Videos.css';
 import GeneradorDeVideos from "../GeneradorDeVideos/GeneradorDeVideos"
+import useFetch from '../../useFetch';
+
 
 function Videos() {
+
+  const {data: videos, loading, error} = useFetch("http://localhost:8000/videos")
+  
   return (
     <div className= "videos">
       <h1 className="tituloVideos">Videos</h1>
-      <GeneradorDeVideos nombre="Fotogenica" artista= "Brae" link="https://www.youtube.com/embed/lK8ZYwjmX3M"/>
-      <GeneradorDeVideos nombre="Peaches" artista= "Justin Bieber" link="https://www.youtube.com/embed/tQ0yjYUFKAE"/>
-      <GeneradorDeVideos nombre="Circles" artista= "Post Malone" link="https://www.youtube.com/embed/wXhTHyIgQ_U"/>
+      {error && <div className="error">{error}</div>}
+      {loading && <div className="loading">Cargando..</div>}
+      {videos && <GeneradorDeVideos videos={videos}/>}
     </div>
   );
 }

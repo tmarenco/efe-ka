@@ -1,0 +1,28 @@
+{
+  "videos": [
+    {
+      "title": "Fotogenica",
+      "artist": "Brae",
+      "link": "https://www.youtube.com/embed/lK8ZYwjmX3M",
+      "id": 1
+    },
+    {
+      "title": "Peaches",
+      "artist": "Justin Bieber",
+      "link": "https://www.youtube.com/embed/tQ0yjYUFKAE",
+      "id": 2
+    },
+    {
+      "title": "Circles",
+      "artist": "Post Malone",
+      "link": "https://www.youtube.com/embed/wXhTHyIgQ_U",
+      "id": 3
+    },
+    {
+      "title": "Dont go",
+      "artist": "Justin Bieber",
+      "link": "https://www.youtube.com/embed/cds_rfHsJ3Y",
+      "id": 4
+    }
+  ]
+}

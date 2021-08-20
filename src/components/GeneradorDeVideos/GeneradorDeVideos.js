@@ -1,13 +1,18 @@
 import './GeneradorDeVideos.css';
+import { Link } from "react-router-dom"
 
-function GeneradorDeVideos(props) {
+function GeneradorDeVideos({videos}) {
     return (
-    <div className="generador">
-        <h2 className="tituloVideo">{props.nombre}</h2>
-        <h3 className="artista">{props.artista}</h3>
-        <div className="video">
-            <iframe className="videoIndividual" src={props.link} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+    <div>
+        {videos.map((video, i)=>(
+            <div className= "generador" key={video.id}>
+                <Link to={`/videos/${video.id}`}><h2 className="tituloVideo">{video.title}</h2></Link>
+                <h3 className="artista">{video.artist}</h3>
+                <div className="video">
+                    <iframe className="videoIndividual" src={video.link} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                </div>
+            </div>
+        ))}
     </div>
     );
 }
