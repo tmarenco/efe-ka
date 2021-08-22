@@ -6,6 +6,7 @@ import SobreMi from "../SobreMi/SobreMi"
 import Inicio from "../Inicio/Inicio"
 import SubirVideo from "../SubirVideo/SubirVideo"
 import Header from "../Header/Header"
+import Footer from "../Footer/Footer"
 import Error from "../Error/Error"
 
 import {Route, Switch} from "react-router-dom"
@@ -25,6 +26,7 @@ function App() {
         <Route path="/videos/:id" component={VideoDetalle} />
         <Route component={Error} />
       </Switch>
+      <Footer />
     </div>
   );
 }

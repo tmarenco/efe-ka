@@ -7,7 +7,7 @@ library.add(fab)
 function SobreMi() {
   return (
     <div className="bio">
-      <div className="tiuloBio">
+      <div className="tituloBio">
         <h1>Fabio Kunis</h1>
       </div>
       <section className="carrusel">

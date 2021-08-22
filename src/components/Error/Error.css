@@ -1,3 +1,9 @@
+.paginaError{
+    text-align: center;
+    margin: 2rem;
+}
 
-
+.paginaError h2 {
+    color: tomato
+}
 

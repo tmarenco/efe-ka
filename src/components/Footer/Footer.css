@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    background-color: #d2d4c8;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+
+.logoFooter{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+}
+
+.logoFooter img {
+    margin: 1rem;
+    background-color: black;
+}
+
+.iconFooter{
+    text-align: center;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.arrow{
+    margin-top: 2rem;
+    background-color: black;
+    font-size: 1rem;
+    color: white;
+    padding: 0.5rem 0.8rem;
+    border-radius: 20%;
+}
+
+
+@media (min-width: 600px){
+    .iconosFooter{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .iconsFooter{
+        margin: 1rem
+    }
+
+    .iconosFooter p {
+        font-size: 0.8rem;
+    }
+}

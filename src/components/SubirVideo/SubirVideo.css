@@ -19,15 +19,29 @@
 
 
 .tituloForm{
+    margin: 1.5rem;
     color: tomato
 }
 
 button {
-    margin: 10px;
+    margin: 2rem;
     background: tomato;
     font-family: akira;
     padding: 10px;
     border-radius: 5px;
     border: 0;
     cursor: pointer;
+}
+
+select{
+    display: block;
+    margin: 0 auto;
+    font-family: akira;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: tomato 3px solid;
+}
+
+option {
+    font-family: akira;
 }

@@ -9,10 +9,10 @@ function Contacto() {
     <div>
       <div className="infoContacto">
         {/* <h2 className="tituloContacto">Email</h2> */}
-        <h3>efekafilms@gmail.com</h3>
-        <h3>@efe_ka_</h3>
+        <h3 className="itemContacto email">efekafilms@gmail.com</h3>
+        <h3 className="itemContacto">@efe_ka_</h3>
         {/* <h2 className="tituloContacto">Celular</h2> */}
-        <h3>15-6861-9696</h3>
+        <h3 className="itemContacto">15-6861-9696</h3>
       </div>
       <div className="icons">
         <a href="mailto:efekafilms@gmail.com"><FontAwesomeIcon icon={['fab', 'google']} className="fab fa-google iconContacto"></FontAwesomeIcon></a>
